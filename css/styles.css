@@ -492,6 +492,22 @@ button, btn {
 }
 
 
+/* секція 5-------------------------------------------------------- */
+
+.team-title {}
+
+.customers-name {}
+
+.company-list {
+        display: flex;
+}
+
+.company-item {}
+
+.company-link {}
+
+.company-icon {}
+
 
 
 /* футер -----------------------------------------------------------*/
