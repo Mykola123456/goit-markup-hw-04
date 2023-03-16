@@ -439,6 +439,8 @@ button, btn {
 
 
 
+
+
 .team-list {
         background: #FFFFFF;
                 
@@ -494,21 +496,55 @@ button, btn {
 
 /* секція 5-------------------------------------------------------- */
 
-.team-title {}
+.customers {
+        padding-bottom: 120px;
+}
+.team-title {
+        padding-top: 130px;
+
+
+}
 
 .customers-name {}
 
 .company-list {
         display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+       
 }
 
-.company-item {}
-
-.company-link {}
+.company-item {
+        width: 168px;
+        height: 88px;
+        cursor: pointer;
+        border: 1px solid #8E8F99;
+        border-radius: 4px;
+}
+.company-item:hover,
+.company-item:focus {
+        border-color: #404BBF;
+        color: #404BBF;
+}
+.company-link {
+        
+}
 
 .company-icon {
         
+        width: 104px;
+        height: 56px;
+        margin: 16px 32px;
+        fill: currentColor;
+        
 }
+
+
+.border-icon {
+       
+                
+}
+
 
 
 
