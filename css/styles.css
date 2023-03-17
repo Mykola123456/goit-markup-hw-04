@@ -86,6 +86,7 @@ button, btn {
         text-transform: uppercase;
         color: #4D5AE5;
         margin-right: 76px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 
@@ -213,7 +214,7 @@ button, btn {
        margin-left: 271px;
         display: flex;
         flex-wrap: wrap;
-        gap: 24px;
+       gap: 24px;
                 
 }
 
@@ -237,16 +238,18 @@ button, btn {
         padding: 12px 24px;
 
 }
-
-
-.btn:hover {
-        color: #FFFFFF;
-        background: #404BBF;
+.hero-btn {
+       
 }
 
+.btn:hover, 
 .btn:focus {
-        color:#FFFFFF;
+        color: #FFFFFF;
         background: #404BBF;
+border: 1px solid #F4F4FD;
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
 }
 .btn:active {
         color: #FFFFFF;
@@ -296,7 +299,11 @@ button, btn {
 
 .servise-item {
         
-        flex-basis: auto;
+        
+}
+.servise-item:hover {
+        border: 1px solid #F4F4FD;
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .title-service {
         font-style: normal;
@@ -329,6 +336,7 @@ button, btn {
         height: 64px;
 }
 .about-fon {
+        margin-bottom: 8px;
         width: 264px;
         height: 112px;
         background: #F4F4FD;
@@ -458,6 +466,11 @@ button, btn {
 .team-list {
         background: #FFFFFF;
                 
+}
+.team-list:hover,
+.team-list:focus {
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+        border-radius: 0px 0px 4px 4px;
 }
 
 .team-title {
