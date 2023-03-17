@@ -246,11 +246,11 @@ button, btn {
 .btn:focus {
         color: #FFFFFF;
         background: #404BBF;
-border: 1px solid #F4F4FD;
+       
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-}
+
 .btn:active {
         color: #FFFFFF;
 }
@@ -622,11 +622,72 @@ display: flex;
 }
 .footer {
 background: var(--second-title-color);
+display: flex;
 
+}
+.footer-web-icon {
+        display: flex;
 }
 
 .footer-container {
 padding-top: 100px;
 padding-bottom: 100px;
+padding-left: 156px;
 }
 
+.footer-soc {
+
+margin-left: 120px;
+padding-bottom: 130px;
+padding-top: 100px;
+
+}
+
+.footer-text-icon {
+        
+        left: 540px;
+        top: 1864px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        margin-bottom: 16px;
+}
+
+.footer-soc-list {
+        display: inline-flex;
+        gap: 16px;
+}
+
+
+
+.footer-soc-item {
+       
+}
+
+
+
+.footer-soc-link {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.1);
+}
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+        
+}
+
+
+
+.footer-soc-icon {
+        width: 20px;
+        height: 20px;
+        fill: #F4F4FD;
+        
+}
