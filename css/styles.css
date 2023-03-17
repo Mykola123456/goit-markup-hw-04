@@ -322,6 +322,18 @@ button, btn {
 
 /* секція 2 --------студія----------------------------------- */
 
+
+.about-icon {
+        margin: 24px 100px;
+        width: 64px;
+        height: 64px;
+}
+.about-fon {
+        width: 264px;
+        height: 112px;
+        background: #F4F4FD;
+        border-radius: 4px;
+}
 .about {
         padding-top: 120px;
         
@@ -510,26 +522,26 @@ button, btn {
 .customers-name {}
 
 .company-list {
-        display: flex;
+display: flex;
         flex-wrap: wrap;
         gap: 24px;
-       
 }
 
 .company-item {
-       
+        width: 168px;
+                height: 88px;
+                cursor: pointer;
+                border: 1px solid #8E8F99;
+                border-radius: 4px;
+        
 }
-.company-link:hover,
-.company-link:focus {
+.company-item:hover,
+.company-item:focus {
         border-color: #404BBF;
         color: #404BBF;
 }
 .company-link {
-        width: 168px;
-        height: 88px;
-        cursor: pointer;
-        border: 1px solid #8E8F99;
-        border-radius: 4px;
+
 }
 
 .company-icon {
