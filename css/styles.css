@@ -264,6 +264,8 @@ button, btn {
 .hero {
 
         max-width: 1440px;
+        padding: auto;
+        margin:0 auto;
       
         background: var(--second-title-color);
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
@@ -515,23 +517,23 @@ button, btn {
 }
 
 .company-item {
+       
+}
+.company-link:hover,
+.company-link:focus {
+        border-color: #404BBF;
+        color: #404BBF;
+}
+.company-link {
         width: 168px;
         height: 88px;
         cursor: pointer;
         border: 1px solid #8E8F99;
         border-radius: 4px;
 }
-.company-item:hover,
-.company-item:focus {
-        border-color: #404BBF;
-        color: #404BBF;
-}
-.company-link {
-        
-}
 
 .company-icon {
-        
+        color: #8E8F99;
         width: 104px;
         height: 56px;
         margin: 16px 32px;
