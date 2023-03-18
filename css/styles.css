@@ -33,7 +33,7 @@ button, btn {
         padding-left: 15px;
         padding-right: 15px;
         margin: 0 auto;
-        outline: 2px solid red;
+        /* outline: 2px solid red; */
 
 
 }
@@ -281,9 +281,7 @@ button, btn {
 
 /* секція  2 ----портфоліо---------------------------------------*/
 .border {
-        background: #FFFFFF;
-        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-        border-radius: 0px 0px 4px 4px;
+       
 }
 
 
@@ -298,10 +296,13 @@ button, btn {
 }
 
 .servise-item {
-        
+        background: #FFFFFF;
+        border: 1px solid #E7E9FC;
+        width: 360px;
+        height: 420px;
         
 }
-.servise-item:hover {
+.border:hover {
         border: 1px solid #F4F4FD;
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -535,40 +536,49 @@ button, btn {
 .customers-name {}
 
 .company-list {
-display: flex;
+        display: flex;
         flex-wrap: wrap;
         gap: 24px;
 }
 
 .company-item {
-        width: 168px;
-                height: 88px;
-                cursor: pointer;
-                border: 1px solid #8E8F99;
-                border-radius: 4px;
+        
         
 }
-.company-item:hover,
-.company-item:focus {
-        border-color: #404BBF;
-        color: #404BBF;
-}
-.company-link {
 
+
+.company-link {
+        justify-content: center;
+        align-items:center;
+        display: flex;
+        width: 168px;
+        height: 88px;
+        cursor: pointer;
+        border: 1px solid #8E8F99;
+        border-radius: 4px;
+        padding: 16px 32px;
+        color: #8E8F99;
+       
+}
+
+.company-link:hover,
+.company-link:focus {
+        color: #4D5AE5;
+        border: 1px solid #4D5AE5;
 }
 
 .company-icon {
-        color: #8E8F99;
         width: 104px;
         height: 56px;
-        margin: 16px 32px;
         fill: currentColor;
+       
         
 }
 
 
+
 .border-icon {
-       
+
                 
 }
 
