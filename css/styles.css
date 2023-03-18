@@ -557,9 +557,7 @@ button, btn {
         border: 1px solid #8E8F99;
         border-radius: 4px;
         padding: 16px 32px;
-        color: #8E8F99;
-       
-}
+    }
 
 .company-link:hover,
 .company-link:focus {
@@ -568,11 +566,12 @@ button, btn {
 }
 
 .company-icon {
+        
         width: 104px;
         height: 56px;
-        fill: currentColor;
-       
-        
+}
+.company-icon.link:is(:hover, :focus) {
+        color: #4D5AE5;
 }
 
 
@@ -637,6 +636,7 @@ display: flex;
 }
 .footer-web-icon {
         display: flex;
+        
 }
 
 .footer-container {
