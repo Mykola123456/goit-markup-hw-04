@@ -548,31 +548,32 @@ button, btn {
 
 
 .company-link {
-        justify-content: center;
-        align-items:center;
-        display: flex;
         width: 168px;
         height: 88px;
-        cursor: pointer;
-        border: 1px solid #8E8F99;
+        justify-content: center;
+        align-items: center;
+        display: block;
+        border: 1px solid#8E8F99;
         border-radius: 4px;
         padding: 16px 32px;
     }
 
-.company-link:hover,
-.company-link:focus {
-        color: #4D5AE5;
-        border: 1px solid #4D5AE5;
+.company-link:is(:hover, :focus) {
+        border: 1px solid#404BBF;
+}
+.company-link:is(:hover, :focus) .company-icon {
+        fill: #404BBF;
+        
 }
 
-.company-icon {
         
+.company-icon {
+        display: block;
         width: 104px;
         height: 56px;
+        fill: #8E8F99;
 }
-.company-icon.link:is(:hover, :focus) {
-        color: #4D5AE5;
-}
+
 
 
 
@@ -686,11 +687,11 @@ padding-top: 100px;
         align-items: center;
         justify-content: center;
         border-radius: 50%;
-        background: rgba(255, 255, 255, 0.1);
+        background: #434455;
 }
 .footer-soc-link:hover,
 .footer-soc-link:focus {
-        
+        background: #31D0AA;
 }
 
 
