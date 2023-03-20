@@ -332,14 +332,14 @@ button, btn {
 
 
 .about-icon {
-        margin: 24px 100px;
+       
         width: 64px;
         height: 64px;
 }
 .about-fon {
+        padding: 24px 100px;
         margin-bottom: 8px;
-        width: 264px;
-        height: 112px;
+        text-align: center;
         background: #F4F4FD;
         border-radius: 4px;
 }
@@ -466,13 +466,10 @@ button, btn {
 
 .team-list {
         background: #FFFFFF;
-                
-}
-.team-list:hover,
-.team-list:focus {
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
         border-radius: 0px 0px 4px 4px;
 }
+
 
 .team-title {
         font-style: normal;
@@ -492,8 +489,6 @@ button, btn {
         display: flex;
         gap: 24px;
         padding-bottom: 120px;
-        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-        border-radius: 0px 0px 4px 4px;
         
 }
 
