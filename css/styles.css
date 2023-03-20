@@ -9,7 +9,7 @@ body {
         --paragraph-title-font-family: 'Roboto',
         sans-serif;
         --adres-title-color: #434455;
-        
+        --color-background: #404BBF;
 }
 
 img {
@@ -126,7 +126,7 @@ button, btn {
         color: #2E2F42;
 }
 .link:is(:hover, :focus, :active) {
-        color: #404bbf
+        color:var(--color-background)
 }
 
 .adress {
@@ -207,7 +207,7 @@ button, btn {
 .hero-button:is(:hover, :focus, :active) {
         
         color: #FFFFFF;
-        background: #404BBF;
+        background: var(--color-background);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
@@ -243,8 +243,8 @@ button, btn {
 .btn:hover, 
 .btn:focus {
         color: #FFFFFF;
-        background: #404BBF;
-        border: 1px solid #404BBF;
+        background: var(--color-background);
+        border: 1px solid var(--color-background);
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
@@ -514,7 +514,7 @@ padding: 32px 16px;
 }
 
 .team-soc-link:is(:hover, :focus, :active) {
-        background-color: #404BBF;
+        background-color: var(--color-background);
         ;
 
 }
@@ -557,10 +557,10 @@ padding: 32px 16px;
     }
 
 .company-link:is(:hover, :focus) {
-        border: 1px solid#404BBF;
+        border: 1px solid var(--color-background) ;
 }
 .company-link:is(:hover, :focus) .company-icon {
-        fill: #404BBF;
+        fill: var(--color-background);
         
 }
 
